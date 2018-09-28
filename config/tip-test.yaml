@@ -1,0 +1,50 @@
+details:
+    page_title: MQTT Broker Dashboard
+layout:
+    - row_1_of_2:
+        - col_1_of_4:
+            - tile_template: pie_chart
+              tile_id: example_pie
+              title: Mmmmmm PIE
+              classes:
+
+        - col_1_of_4:
+            - tile_template: just_value
+              tile_id: clients_connected
+              title: SYS Topics - Clients
+              classes:
+
+        - col_1_of_4:
+            - tile_template: just_value
+              tile_id: clients_disconnected
+              title: SYS Topics - Clients
+              classes:
+
+        - col_1_of_4:
+            - tile_template: just_value
+              tile_id: clients_total
+              title: SYS Topics - Clients
+              classes:
+
+    - row_1_of_2:
+        - col_2_of_4:
+            - tile_template: cumulative_flow
+              tile_id: msg_per_hr
+              title: Messages per hour
+              classes:
+
+        - col_1_of_4:
+            - tile_template: big_value
+              tile_id: messages_info
+              title: SYS Topics - Messages
+              classes:
+
+        - col_1_of_4:
+            - tile_template: big_value
+              tile_id: broker_info
+              title: SYS Topics - Broker
+              classes:
+
+        
+              
+
